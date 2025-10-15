@@ -41,7 +41,7 @@ If you use this code, please cite:
 
 The paper details the algorithmic foundations of CLOVE, its implementation, and demonstrates its performance on both synthetic and real-world networks. See (https://www.nature.com/articles/s42005-025-02306-8)
 
-For more details see see the ```hypCLOVE_tutorial.ipynb``` notebook [here](hypCLOVE_tutorial.ipynb).
+For a detailed description of the corresponding code see the ```hypCLOVE_tutorial.ipynb``` notebook [here](hypCLOVE_tutorial.ipynb).
 
 
 ## Import & Run
@@ -58,7 +58,7 @@ G = nx.barabasi_albert_graph(n=1000, m=2)
 
 emb = clove.embed(G)
 ```
-The whole set of input parameters of the ```.embed()``` function are listed below. For the outputs stored in the ```emb``` variable, see the ```hypCLOVE_tutorial.ipynb``` notebook in this repository.
+The whole set of input parameters of the ```.embed()``` function are listed below. For the outputs stored in the ```emb``` variable, see the ```hypCLOVE_tutorial.ipynb``` notebook [here](hypCLOVE_tutorial.ipynb).
 
 ## Input Parameters
 
