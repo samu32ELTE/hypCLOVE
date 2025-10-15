@@ -1,0 +1,6 @@
+scipy >= 1.8.0
+numpy>=1.22.2
+networkx>=2.6.3
+python-louvain >= 0.16
+igraph >= 0.10.4
+leidenalg
