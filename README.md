@@ -90,7 +90,7 @@ The whole set of input parameters of the ```.embed()``` function are listed belo
 - **Description:**  
   - If `None`, the algorithm automatically detects communities in a nested manner (recursively on induced subgraphs). 
   - Otherwise, a predefined dendrogram (as described [here](https://python-louvain.readthedocs.io/en/latest/api.html)) is used.
-  - When using CLOVE with a dendrogram, each node must have a community label at the lowest level of the dendrogram. Additionally, nodes at level zero must be indexed with consecutive integers starting from 0 up to N!
+  - **When using CLOVE with a predefined dendrogram, each node must have a community label at the lowest level of the dendrogram. Additionally, community IDs at the lowest level of the dendrogram must be consecutive integers from 0 to $n$, where $n$ is the total number of communities at level zero.**
 
 ---
 
