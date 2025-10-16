@@ -73,7 +73,7 @@ The whole set of input parameters of the ```.embed()``` function are listed belo
 - **Default:** `None`  
 - **Description:**  
   - If `None`, the algorithm fits `gamma` based on the degree distribution.  
-  - Otherwise, a fixed value `gamma ∈ [0, ∞]` is used.  
+  - Otherwise, a fixed value `gamma ∈ (2, ∞)` is used.  
 
 ---
 
